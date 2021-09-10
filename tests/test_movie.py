@@ -8,7 +8,7 @@ class MovieTest(unittest.TestCase):
 
     def setUp(self):
         '''
-        Set up method that will run before every Test
+        Set up method that will run before every Test in your application
         '''
         self.new_movie = Movie(1234,'Python Must Be Crazy','A thrilling new Python Series','/khsjha27hbs',8.5,129993)
 
